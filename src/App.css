@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+.App>form{
+  margin-top: 20px;
+}
+.App > form label input{
+  margin: 10px;
+  padding: 5px;
+  border-radius: 3px;
+}
+.submit_button{
+  margin: 10px;
+  padding: 10px;
+  border-radius: 3px;
+  color:#29f30a;
+  background-color: #282c34;
+}
+.roll_dice{
+   margin: 5px;
+  padding: 5px;
+  border-radius: 3px;
+  color:#0a6bf3;
+  background-color: #dbdde0;
+}
+.end_turn{
+  margin: 5px;
+ padding: 5px;
+ border-radius: 3px;
+ color:#f30a5f;
+ background-color: #dbe0e0;
+}
+.playerBoard{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+
+
